@@ -20,7 +20,7 @@ if ( vehicule != undefined )  {
     console.log(vehicule["fabricant"]);
 } else {
 
-    console.log("aucune vehicule de ce type");
+    console.log("aucun vehicule de ce type");
 }
 
 var sortes = Object.keys(vehicules).sort();
